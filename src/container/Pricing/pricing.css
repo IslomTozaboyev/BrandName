@@ -1,0 +1,48 @@
+.pricing {
+  background: #252b42;
+}
+.pricing .pricing__box {
+  width: 350px !important;
+  padding: 30px !important;
+  text-align: center !important;
+  border-radius: 5px;
+  position: relative;
+  transition: 0.7s;
+}
+.pricing .pricing__box:hover {
+  box-shadow: 0 0 10px white;
+}
+.pricing .pricing__circle {
+  position: absolute;
+  top: -20px;
+  left: 240px;
+  background: #e77c40;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+.pricing .pricing__box .subtitle {
+  font-size: 40px;
+  font-weight: bold;
+  color: #23a6f0;
+}
+.pricing .pricing__box .subtitle2 {
+  font-size: 15px;
+  color: #23a6f0;
+}
+.pricing .pricing__box .btn {
+  background-color: #23a6f0;
+  color: white;
+}
+.pricing .pricing__box .success {
+  background-color: #2dc071;
+}
+.pricing .pricing__box .secondary {
+  background-color: #bdbdbd;
+}

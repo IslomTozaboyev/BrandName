@@ -1,0 +1,48 @@
+.location {
+  background: #252b42;
+}
+.location .container .row {
+  margin: 0 195px !important;
+}
+.location .location__section {
+  margin-top: 100px !important;
+}
+.location .location__box {
+  border: 1px solid #23a6f0;
+  width: 300px;
+  background: white;
+  text-align: center;
+  padding: 40px;
+  transition: 0.7s;
+}
+.location .location__box:hover {
+  transform: scale(1.1);
+  background: #23a6f0;
+  color: white;
+}
+.location .location__box .icon {
+  font-size: 50px;
+}
+.location .location__box .btn {
+  padding: 10px 30px;
+  background: #fff;
+  border: 1px solid #23a6f0;
+  border-radius: 25px;
+  color: #23a6f0;
+}
+
+@media screen and (max-width: 1400px) {
+  .location .container .row {
+    margin: 0 105px !important;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .location .container .row {
+    margin: 105px !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .location .container .row {
+    margin: 15px !important;
+  }
+}

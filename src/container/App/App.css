@@ -1,0 +1,8 @@
+body {
+  background: #252b42 !important;
+  overflow-x: hidden !important;
+}
+.hobs {
+  top: 0 !important;
+  transition: 0.5s;
+}

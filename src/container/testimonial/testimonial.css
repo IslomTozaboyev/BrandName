@@ -1,0 +1,53 @@
+.testimonial {
+  background: #252b42;
+  width: 100%;
+}
+.testimonial .testimonial__icon {
+  background: rgb(255, 255, 0) !important;
+}
+.testimonial .testimonial__box img {
+  height: 210px !important;
+}
+.testimonial .testimonial__box {
+  width: 100%;
+  max-height: 210px !important ;
+}
+@media screen and (max-width: 1200px) {
+  .testimonial .testimonial__box {
+    width: 700px !important;
+  }
+  .boxTest {
+    padding: 0 !important;
+  }
+}
+@media screen and (max-width: 920px) {
+  .testimonial .testimonial__box {
+    width: 500px !important;
+  }
+  .boxTest {
+    padding: 0 !important;
+  }
+  .testGrid {
+    display: grid !important;
+  }
+}
+@media screen and (max-width: 550px) {
+  .testimonial .testimonial__box {
+    width: 400px !important;
+  }
+  .testimonial .testimonial__box img {
+    height: 210px !important;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .testimonial .testimonial__box {
+    width: 320px !important;
+    font-size: 13px !important;
+  }
+  .testimonial .testimonial__box img {
+    height: 210px !important;
+    width: 150px;
+  }
+}
